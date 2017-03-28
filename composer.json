@@ -1,0 +1,22 @@
+{
+    "name": "manas/kayako",
+    "description": "Fetch and display tweets which are re-tweeted at-least once and contains hashtag #custserv",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Manas Sharma",
+            "email": "manassharma1995@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.7.x-dev",
+        "abraham/twitteroauth": "0.5.1",
+        "slim/slim": "2.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kayako\\": "app/models"
+        }
+    }
+}
