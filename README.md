@@ -1,22 +1,13 @@
 # kayakotwitterclient
-Kayako Challenge 
+Kayako Challenge assigned.
 
 A simple Twitter API client in PHP. This client simply has to fetch and display Tweets that 
   a) Have been re-Tweeted at least once and 
   b) Contain the hashtag #custserv
- 
+(Keys and tokens not included for obvious reasons. App can be checked at publically accessible link) 
 ### Feature 
   Infinite scroll to fetch older tweets 
-  
-### Future work
-  1. The website can be made genric by adding a toolbar where any user can select: <br>
-     1. Hashtag they want to search <br>
-     2. Minimum number of retweets each post should have <br>
-     3. Date time between which the post is made etc. <br>
-     The idea basically is to make this a useful website for someone, currently it just serves the problem statement given by kayako's team.
-  2. Tweets can be made more elegent by adding actual link to tweet-owner profile, can display his pictures and all those sorts of things. 
-  3. Currently there is no cache support as it would have been an overengineering to have cache support here. But yes, we can add cache support using Redis.
-  
+    
 ### Installation guide 
   1. Download/ Clone this project.
   2. When you are inside the document root, run 'composer update' command. This command will download all the project dependecies. 
@@ -29,7 +20,8 @@ A simple Twitter API client in PHP. This client simply has to fetch and display 
   9. Boom: tweets will appear. 
   
 ### Publicly accessible link::
-  https://kayakotwitterclient.herokuapp.com/
+  goo.gl/Y9s2YI
+
   
 
 
