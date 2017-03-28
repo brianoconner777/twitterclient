@@ -20,7 +20,7 @@ A simple Twitter API client in PHP. This client simply has to fetch and display 
   9. Boom: tweets will appear. 
   
 ### Publicly accessible link::
-  goo.gl/Y9s2YI
+  www.goo.gl/Y9s2YI
 
   
 
